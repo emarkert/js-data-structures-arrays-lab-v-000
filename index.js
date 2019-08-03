@@ -17,12 +17,14 @@ function destructivelyRemoveLastDriver() {
   return drivers.pop();
 }
 
-function appendDriver() {
-
+function appendDriver(driver) {
+  const newArray = drivers.splice(drivers.length, 0, driver);
+  return newArray;
 }
 
-function prependDriver() {
-
+function prependDriver(driver) {
+  const newArray = drivers.splice(0, 0, driver);
+  return newArray;
 }
 
 function removeLastDriver() {
