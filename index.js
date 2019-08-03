@@ -23,7 +23,7 @@ function appendDriver(driver) {
 }
 
 function prependDriver(driver) {
-  const newArray = drivers.splice(0, 0, driver);
+  const newArray = drivers.splice(-1, 0, driver);
   return newArray;
 }
 
