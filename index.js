@@ -16,3 +16,20 @@ function destructivelyRemoveFirstDriver() {
 function destructivelyRemoveLastDriver() {
   return drivers.pop();
 }
+
+function appendDriver() {
+
+}
+
+function prependDriver() {
+
+}
+
+function removeLastDriver() {
+
+}
+
+function removeFirstDriver() {
+  const newArray = drivers.slice(1);
+  return newArray;
+}
